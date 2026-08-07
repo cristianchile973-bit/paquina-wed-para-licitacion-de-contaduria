@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Licitación Privada - Innovaciones en Cerámica y Azulejos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary: #1b365d; /* Azul Marino Corporal */
+            --accent: #d97706;  /* Naranja Industrial */
+            --bg-light: #f8fafc;
+            --text-dark: #1e293b;
+            --text-muted: #64748b;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 25px 20px;
+            text-align: center;
+            border-bottom: 4px solid var(--accent);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        /* Contenedor Principal */
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            flex-grow: 1;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 35px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+            border: 1px solid #e2e8f0;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: #fef3c7;
+            color: #92400e;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+
+        .description {
+            color: var(--text-muted);
+            line-height: 1.6;
+            margin-bottom: 25px;
+            font-size: 0.95rem;
+        }
+
+        /* Requerimientos Rápidos */
+        .specs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .spec-item {
+            background: #f1f5f9;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary);
+        }
+
+        .spec-item strong {
+            display: block;
+            color: var(--primary);
+            font-size: 0.85rem;
+            margin-bottom: 3px;
+            text-transform: uppercase;
+        }
+
+        .spec-item span {
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+
+        /* Área de Descarga */
+        .download-box {
+            background-color: #f8fafc;
+            border: 2px dashed #cbd5e0;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .download-box i {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background-color: var(--accent);
+            color: white;
+            padding: 14px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            margin-top: 15px;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 6px rgba(217, 119, 6, 0.25);
+        }
+
+        .download-btn:hover {
+            background-color: #b45309;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(217, 119, 6, 0.35);
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #0f172a;
+            color: #94a3b8;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.85rem;
+            margin-top: auto;
+        }
+
+        footer strong {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>INNOVACIONES EN CERÁMICA Y AZULEJOS, S.A. DE C.V.</h1>
+        <p>Departamento de Adquisiciones y Contrataciones | Antiguo Cuscatlán, El Salvador</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <span class="badge"><i class="fa-solid fa-bullhorn"></i> CONCURSO PRIVADO Nº LPR-ICA-004-2026</span>
+            
+            <h2>Suministro e Instalación de Sistemas de Racks Selectivos Pesados para Nueva Bodega de Distribución</h2>
+            
+            <p class="description">
+                Invitamos a todas las empresas proveedoras legalmente constituidas a participar en el proceso de licitación para el equipamiento de nuestra nueva bodega central. Descargue el pliego completo de condiciones para conocer las especificaciones técnicas y legales.
+            </p>
+
+            <div class="specs-grid">
+                <div class="spec-item">
+                    <strong>Capacidad Requerida</strong>
+                    <span>3,000 kg por nivel</span>
+                </div>
+                <div class="spec-item">
+                    <strong>Altura Estructural</strong>
+                    <span>6.0 Metros (4 niveles)</span>
+                </div>
+                <div class="spec-item">
+                    <strong>Garantía Solicitada</strong>
+                    <span>2% Mantenimiento de Oferta</span>
+                </div>
+            </div>
+
+            <div class="download-box">
+                <i class="fa-solid fa-file-word"></i>
+                <h3 style="color: var(--primary); margin-bottom: 5px;">Pliego de Condiciones y Términos de Referencia</h3>
+                <p style="font-size: 0.85rem; color: var(--text-muted);">Archivo en formato Word listo para revisión (.docx)</p>
+                
+                <a href="Pliego_Licitacion_Racks_ICA.docx" download class="download-btn">
+                    <i class="fa-solid fa-download"></i> Descargar Documento Oficial
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 <strong>Innovaciones en Cerámica y Azulejos, S.A. DE C.V.</strong> - Todos los derechos reservados.</p>
+        <p>Dudas o consultas: adquisiciones@innovaceramica.com.sv</p>
+    </footer>
+
+</body>
+</html>
